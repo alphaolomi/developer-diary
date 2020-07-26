@@ -13,7 +13,7 @@ module.exports = {
       github: "https://github.com/alphaolomi",
       stackoverflow:
         "https://stackoverflow.com/users/5046552/alpha-olomi?tab=profile",
-      // freecodecamp: "https://www.freecodecamp.org/willjw3",
+      freecodecamp: "https://www.freecodecamp.org/willjw3",
       twitter: "https://twitter.com/alphaolomi",
     },
   },
