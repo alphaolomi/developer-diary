@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-developer-diary",
+  "name": "dear-diary",
   "private": true,
   "description": "A Gatsby blog template designed for web developers. Blazing fast, it includes beautful web developer topic tags and social-media links",
   "version": "0.1.0",
-  "author": "willjw3 <https://github.com/willjw3>",
+  "author": "alpha olomi <https://github.com/alphaolomi>",
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "bootstrap": "^4.3.1",
@@ -37,9 +37,7 @@
   "devDependencies": {
     "prettier": "^1.17.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -49,11 +47,5 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+ 
 }
