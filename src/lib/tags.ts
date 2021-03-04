@@ -1,4 +1,14 @@
-import tags from "../../meta/tags.yml";
+// import tags from "../../meta/tags.yml";
+const tags = {
+  tags:[
+    { slug: "document", name: "document"},    
+    { slug: "laravel", name: "laravel"},    
+    { slug: "linux", name: "linux"},    
+    { slug: "infosec", name: "infosec"},
+    { slug: "react", name: "react"},  
+    { slug: "markdown", name: "markdown"},
+  ] 
+}
 
 export type TagContent = {
   readonly slug: string;

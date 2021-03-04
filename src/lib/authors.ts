@@ -1,4 +1,15 @@
-import authors from "../../meta/authors.yml";
+// import authors from "../../meta/authors.yml";
+
+let authors = {
+  authors: [
+    {
+      slug: "alphaolomi",
+      name: "Alpha Olomi",
+      introduction: "Software Engineer / JS / React",
+    },
+  ],
+};
+
 
 export type AuthorContent = {
   readonly slug: string;
