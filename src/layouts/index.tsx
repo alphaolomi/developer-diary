@@ -30,11 +30,14 @@ export default function Index({
   tags,
   description,
 }: Props) {
-  const keywords = tags.map((it) => getTag(it).name);
-  const authorName = getAuthor(author).name;
+  // const keywords = tags.map((it) => getTag(it).name);
+  const keywords = [];//tags.map((it) => getTag(it).name);
+  // const _author = getAuthor(author);
+  const authorName = "" // _author.name;
   return ({ children: content }) => {
     return (
       <Layout>
+      
         <BasicMeta
           url={`/posts/${slug}`}
           title={title}
@@ -87,7 +90,7 @@ export default function Index({
             </div>
             <Copyright />
           </footer>
-        </div>
+        </div> 
         <style jsx>
           {`
             .container {
